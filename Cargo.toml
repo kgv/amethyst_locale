@@ -1,0 +1,17 @@
+[package]
+name = "amethyst_locale"
+version = "0.0.1"
+authors = ["g <kgv@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+amethyst_assets = { git = "https://github.com/amethyst/amethyst", rev = "dc33ff6bebf258fd9c2eb6466b783815ffe83124" }
+amethyst_core = { git = "https://github.com/amethyst/amethyst", rev = "dc33ff6bebf258fd9c2eb6466b783815ffe83124" }
+derive-new = "0.5.8"
+fluent = "0.15.0"
+log = "0.4.14"
+serde = { version = "1.0.123", features = ["derive"] }
+shrinkwraprs = "0.3.0"
+type-uuid = "0.1.2"
+unic-langid = { version = "0.9.0", features = ["macros", "serde"] }
+uuid = "0.8.2"
